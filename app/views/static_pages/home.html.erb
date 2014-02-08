@@ -1,6 +1,11 @@
-<% provide(:title, 'Home') %>
+<div class="center hero-unit">
+    <h1>Downleft</h1><br />
+    <h2>Setlist Application</h2>
+    <p>
+        This is the home page for The downleft application
+    </p>
 
-<h1>Downleft App</h1>
-<p>
-    This is the home page for The downleft application
-</p>
+    <%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
+</div>
+
+<%= link_to image_tag("rails.png", alt: "Rails"), "http://rubyonrails.org" %>
